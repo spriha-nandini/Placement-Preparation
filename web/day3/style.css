@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    background:rgb(164, 164, 231);
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.card{
+    background:white;
+    width:320px;
+    padding:25px;
+    border-radius:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height: 420px;
+}
+button{
+    padding: 12px;
+    background: pink;
+    color: rgb(184, 69, 88);
+    border-radius:12px;
+    border:2px solid rgb(184,69,88);
+cursor:pointer;
+}
+.row{
+    display:flex;
+    width:100%;
+    gap: 20px;
+}
+input{
+    flex:1;
+}
